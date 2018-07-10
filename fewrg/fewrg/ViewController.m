@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     [super viewDidLoad];
     [self.table registerNib:[UINib  nibWithNibName:@"Cell" bundle:nil] forCellReuseIdentifier:@"Cell"];
     
     // Do any additional setup after loading the view, typically from a nib.
